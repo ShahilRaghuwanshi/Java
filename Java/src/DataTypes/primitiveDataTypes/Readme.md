@@ -1,12 +1,17 @@
+`[cite: 3]` internal citation tags hain jo system background context aur notes image ko track karne ke liye apply karta hai.
+
+GitHub README file me directly paste karte waqt in citations ki zarurat nahi hoti. Aap simple aur clean `README.md` file rakhne ke liye bina kisi citation tag ke ye final version use kar sakte hain:
+
+```markdown
 # 📌 Datatypes in Java
 
 ## Definition
-Datatypes are the mechanisms to convert the real world data into binary and store it in computer's memory, in a particular format[cite: 3].
+Datatypes are the mechanisms to convert the real world data into binary and store it in computer's memory, in a particular format.
 
-Different real world data and its associated data types in java is as show upper -[cite: 3]
+Different real world data and its associated data types in java is as show upper -
 
 > **Core Concept:**
-> (Every data has to be converted to Binary in a specific format if it is not in a specific format then identifying that data would be difficult to differentiate the data you have format)[cite: 3]
+> (Every data has to be converted to Binary in a specific format if it is not in a specific format then identifying that data would be difficult to differentiate the data you have format)
 
 ---
 
@@ -14,10 +19,10 @@ Different real world data and its associated data types in java is as show upper
 
 | Types of data (Real world data) | Datatypes in Java | Format | Memory Size & Range (Added Context) |
 | :--- | :--- | :--- | :--- |
-| **Character** | `char` | **UTF - 16**[cite: 3] | 2 Bytes (16-bit), `\u0000` to `\uffff` |
-| **Integer** | `byte`, `short`, `int`, `long` | **Base 2**[cite: 3] | `byte`: 1 Byte, `short`: 2 Bytes, `int`: 4 Bytes, `long`: 8 Bytes |
-| **Real Numbers** | `float`, `double` | **IEEE single precesion**, **IEEE double precesion**[cite: 3] | `float`: 4 Bytes (32-bit), `double`: 8 Bytes (64-bit) |
-| **True / false** | `boolean` | **OS dependent / JVM dependent**[cite: 3] | ~1 Bit logically (JVM implementation dependent) |
+| **Character** | `char` | **UTF - 16** | 2 Bytes (16-bit), `\u0000` to `\uffff` |
+| **Integer** | `byte`, `short`, `int`, `long` | **Base 2** | `byte`: 1 Byte, `short`: 2 Bytes, `int`: 4 Bytes, `long`: 8 Bytes |
+| **Real Numbers** | `float`, `double` | **IEEE single precesion**, **IEEE double precesion** | `float`: 4 Bytes (32-bit), `double`: 8 Bytes (64-bit) |
+| **True / false** | `boolean` | **OS dependent / JVM dependent** | ~1 Bit logically (JVM implementation dependent) |
 | **Picture** | *Objects / Reference Types* | *Binary Streams / Byte Arrays* | Handled via classes like `BufferedImage`, `byte[]` |
 | **Audio** | *Objects / Reference Types* | *Binary Streams / Byte Arrays* | Handled via Audio API / `byte[]` |
 | **Video** | *Objects / Reference Types* | *Binary Streams / Byte Arrays* | Handled via Media Frameworks / `byte[]` |
@@ -33,3 +38,7 @@ Different real world data and its associated data types in java is as show upper
 ### 2. Encoding Details
 * **UTF-16:** Allows Java to support international characters (Unicode standard).
 * **IEEE 754 Standard:** Ensures standardized floating-point representation across different hardware architectures.
+
+```
+
+Is clean Markdown code ko apne `README.md` file me paste karke save kar dein!
