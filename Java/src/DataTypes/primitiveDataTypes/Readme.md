@@ -1,8 +1,3 @@
-`[cite: 3]` internal citation tags hain jo system background context aur notes image ko track karne ke liye apply karta hai.
-
-GitHub README file me directly paste karte waqt in citations ki zarurat nahi hoti. Aap simple aur clean `README.md` file rakhne ke liye bina kisi citation tag ke ye final version use kar sakte hain:
-
-```markdown
 # 📌 Datatypes in Java
 
 ## Definition
@@ -38,7 +33,3 @@ Different real world data and its associated data types in java is as show upper
 ### 2. Encoding Details
 * **UTF-16:** Allows Java to support international characters (Unicode standard).
 * **IEEE 754 Standard:** Ensures standardized floating-point representation across different hardware architectures.
-
-```
-
-Is clean Markdown code ko apne `README.md` file me paste karke save kar dein!
