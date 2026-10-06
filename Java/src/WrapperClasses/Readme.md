@@ -14,14 +14,16 @@ Java is not a pure object oriented programming language. Even though java is not
 When using primitive data types, values are stored directly inside the data type variables.
 
 ### Examples & Memory Layout:
-* `char a = 'x';` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Memory:** `a | x`
-* `byte b = 10;` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Memory:** `b | 10`
-* `short c = 20;` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Memory:** `c | 20`
-* `int d = 30;` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Memory:** `d | 30`
-* `long e = 40;` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Memory:** `e | 40`[cite: 4]
-* `float f = 3.147f;` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Memory:** `f | 3.147`[cite: 4]
-* `double g = 33.3384;` &nbsp; **Memory:** `g | 133.3384`[cite: 4]
-* `boolean h = true;` &nbsp;&nbsp;&nbsp;&nbsp; **Memory:** `h | true`[cite: 4]
+- `char a = 'x';`        Memory: `a | x`
+- `byte b = 10;`        Memory: `b | 10`
+- `short c = 20;`       Memory: `c | 20`
+- `int d = 30;`         Memory: `d | 30`
+- `long e = 40;`        Memory: `e | 40`
+- `float f = 3.147f;`   Memory: `f | 3.147`
+- `double g = 33.3384;` Memory: `g | 33.3384`
+- `boolean h = true;`   Memory: `h | true`
+
+> 📝 **Note:** Values are stored directly inside the data type variables.
 
 > 📝 **Note:** Value store in data type[cite: 4].
 
