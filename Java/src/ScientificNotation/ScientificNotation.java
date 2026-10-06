@@ -7,9 +7,9 @@ public class ScientificNotation {
 		System.out.println(a);
 		
 		float b = 3.147456e+3f;
-		System.out.println(a);
+		System.out.println(b);
 		
 		float c = 3147.456E+3f;
-		System.out.println(a);
+		System.out.println(c);
 	}
 }
