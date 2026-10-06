@@ -1,28 +1,35 @@
-# 📌 Data Types in Java
+# 📌 Datatypes in Java
 
-## What are Data Types?
-Data types are the mechanisms to convert real-world data into binary and store it in computer memory in a particular format[cite: 2].
+## Definition
+Datatypes are the mechanisms to convert the real world data into binary and store it in computer's memory, in a particular format[cite: 3].
 
-> **Core Concept:** Every data has to be converted to binary in a specific format[cite: 2]. If it is not in a specific format, then identifying that data would be difficult to differentiate the data you have[cite: 2].
+Different real world data and its associated data types in java is as show upper -[cite: 3]
 
----
-
-## 📊 Real-World Data vs Java Data Types Mapping
-
-| Types of Data (Real World) | Data Types in Java | Format / Encoding |
-| :--- | :--- | :--- |
-| **Character** | `char` | **UTF-16** |
-| **Integer** | `byte`, `short`, `int`, `long` | **Base 2** |
-| **Real Numbers** | `float`, `double` | **IEEE single precision**, **IEEE double precision** |
-| **True / False** | `boolean` | **OS dependent / JVM dependent** |
-| **Picture** | *Objects / Binary Streams* | *Byte Arrays* |
-| **Audio** | *Objects / Binary Streams* | *Byte Arrays* |
-| **Video** | *Objects / Binary Streams* | *Byte Arrays* |
+> **Core Concept:**
+> (Every data has to be converted to Binary in a specific format if it is not in a specific format then identifying that data would be difficult to differentiate the data you have format)[cite: 3]
 
 ---
 
-## 💡 Notes Highlights
-* **Character Encoding:** Java uses 16-bit **UTF-16** encoding for `char` representation[cite: 2].
-* **Integer Storage:** Stored using standard binary notation (**Base 2**)[cite: 2].
-* **Floating-Point Representation:** Real numbers follow **IEEE 754** single precision (`float`) and double precision (`double`) standards[cite: 2].
-* **Boolean:** Representation depends internally on the **OS / JVM** architecture[cite: 2].
+## 📊 Datatypes Mapping Table
+
+| Types of data (Real world data) | Datatypes in Java | Format | Memory Size & Range (Added Context) |
+| :--- | :--- | :--- | :--- |
+| **Character** | `char` | **UTF - 16**[cite: 3] | 2 Bytes (16-bit), `\u0000` to `\uffff` |
+| **Integer** | `byte`, `short`, `int`, `long` | **Base 2**[cite: 3] | `byte`: 1 Byte, `short`: 2 Bytes, `int`: 4 Bytes, `long`: 8 Bytes |
+| **Real Numbers** | `float`, `double` | **IEEE single precesion**, **IEEE double precesion**[cite: 3] | `float`: 4 Bytes (32-bit), `double`: 8 Bytes (64-bit) |
+| **True / false** | `boolean` | **OS dependent / JVM dependent**[cite: 3] | ~1 Bit logically (JVM implementation dependent) |
+| **Picture** | *Objects / Reference Types* | *Binary Streams / Byte Arrays* | Handled via classes like `BufferedImage`, `byte[]` |
+| **Audio** | *Objects / Reference Types* | *Binary Streams / Byte Arrays* | Handled via Audio API / `byte[]` |
+| **Video** | *Objects / Reference Types* | *Binary Streams / Byte Arrays* | Handled via Media Frameworks / `byte[]` |
+
+---
+
+## 💡 Technical Deep Dive (Extended Context)
+
+### 1. Primitive vs Non-Primitive Types
+* **Primitive Data Types:** Built-in data types (`byte`, `short`, `int`, `long`, `float`, `double`, `char`, `boolean`) that directly hold values in binary format.
+* **Non-Primitive Data Types:** Reference types (Classes, Arrays, Interfaces) used to handle complex real-world data like **Picture**, **Audio**, and **Video**.
+
+### 2. Encoding Details
+* **UTF-16:** Allows Java to support international characters (Unicode standard).
+* **IEEE 754 Standard:** Ensures standardized floating-point representation across different hardware architectures.
