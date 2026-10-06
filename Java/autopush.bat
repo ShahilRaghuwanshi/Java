@@ -9,31 +9,31 @@ echo      Checking for changes and syncing with GitHub...
 echo ====================================================
 echo.
 
-:: 1. Ensure branch is main
-git checkout main >nul 2>&1
+:: 1. Branch check
+call git checkout main >nul 2>&1
 
-:: 2. Stage all local changes
-git add .
+:: 2. Stage changes
+call git add .
 
-:: 3. Current Date & Time fetch karein
+:: 3. Current Date & Time
 for /f "tokens=*" %%a in ('powershell -Command "Get-Date -Format 'hh:mm:ss tt | dd-MMM-yyyy'"') do set datetime=%%a
 
-:: 4. Commit local changes if any exist
-git diff --cached --quiet
+:: 4. Commit changes
+call git diff --cached --quiet
 if errorlevel 1 (
     echo [INFO] New local changes detected! Creating commit...
-    git commit -m "%datetime%"
+    call git commit -m "%datetime%"
 ) else (
     echo [INFO] No new local changes to commit.
 )
 
-:: 5. Pull & Merge remote changes safely
+:: 5. Pull updates
 echo [INFO] Pulling updates from GitHub...
-git pull origin main --no-rebase -X ours --quiet
+call git pull origin main --no-rebase -X ours --quiet
 
-:: 6. Push to GitHub
+:: 6. Push updates
 echo [INFO] Pushing changes to GitHub main branch...
-git push origin main
+call git push origin main
 if %errorlevel% equ 0 (
     echo.
     echo ====================================================
@@ -42,11 +42,13 @@ if %errorlevel% equ 0 (
 ) else (
     echo.
     echo ====================================================
-    echo   [ERROR] Push failed. Will retry on next key press...
+    echo   [ERROR] Push failed. Check your network or Git status.
     echo ====================================================
 )
 
 echo.
-echo Press ANY KEY to sync again, or Ctrl+C to exit.
+echo ----------------------------------------------------
+echo Press ANY KEY to sync again...
+echo ----------------------------------------------------
 pause >nul
 goto loop
