@@ -58,3 +58,7 @@ e --------> ( 40 )
 f --------> ( 3.147 )
 g --------> ( 33.3384 )
 h --------> ( true )
+
+(Value stored in Object, not in data types)
+
+
