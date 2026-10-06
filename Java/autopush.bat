@@ -13,7 +13,8 @@ call git checkout main >nul 2>&1
 
 call git add .
 
-for /f "tokens=*" %%a in ('powershell -Command "Get-Date -Format 'hh:mm:ss tt | dd-MMM-yyyy'"') do set datetime=%%a
+:: Fixed Date-Time Fetch Syntax
+for /f "usebackq tokens=*" %%a in (`powershell -NoProfile -Command "Get-Date -Format 'hh:mm:ss tt | dd-MMM-yyyy'"`) do set "datetime=%%a"
 
 call git diff --cached --quiet
 if errorlevel 1 (
