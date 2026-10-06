@@ -3,7 +3,7 @@
 ## Definition
 Datatypes are the mechanisms to convert the real world data into binary and store it in computer's memory, in a particular format.
 
-Different real world data and its associated data types in java is as show upper -
+Different real world data and its associated data types in java is as show below -
 
 > **Core Concept:**
 > (Every data has to be converted to Binary in a specific format if it is not in a specific format then identifying that data would be difficult to differentiate the data you have format)
