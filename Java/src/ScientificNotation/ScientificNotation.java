@@ -33,19 +33,6 @@ package ScientificNotation;
  * ============================================================================
  */
 public class ScientificNotation {
-<<<<<<< HEAD
-	public static void main(String[] args) {
-		
-		float a = 3147.456f;
-		System.out.println(a);
-		
-		float b = 3.147456e+3f;
-		System.out.println(b);
-		
-		float c = 3147.456E+3f;
-		System.out.println(c);
-	}
-=======
     public static void main(String[] args) {
         
         // Standard decimal notation
@@ -60,5 +47,4 @@ public class ScientificNotation {
         float c = 3.147456E+3f;
         System.out.println(c); // Output: 3147.456
     }
->>>>>>> 58c0cfe03bf317ce319f6e18fa9fcb42b2b17c22
 }
