@@ -1,7 +1,7 @@
 /*
  * Take char as input and store it in charArray
  */
-package Array;
+package Array1D;
 import java.util.*;
 public class CharArray {
 	public static void main(String[] args) {

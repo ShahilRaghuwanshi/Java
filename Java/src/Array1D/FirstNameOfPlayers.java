@@ -10,7 +10,7 @@
  * 6
  * 7
  */
-package Array;
+package Array1D;
 import java.util.*;
 public class FirstNameOfPlayers {
 
