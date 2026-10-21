@@ -1,4 +1,4 @@
-/*
+/*Enter the First Name of the players
  * scenario:
  * players   FirstName 
  * 0
