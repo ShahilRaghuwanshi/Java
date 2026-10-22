@@ -2,7 +2,7 @@
  * Write a java program to create an appropriate dimension and length array
  * according to the below given scenario
  * 
- * scenario :-
+ * scenario :- Mark's of student's to be stored in array
  * 
  * classes     students
  * 0			0 1 2
@@ -11,9 +11,9 @@
  * 3			0 1 2
  * 		
  */
-package Arrays;
+package Arrays2D;
 import java.util.*;
-public class Array2D {
+public class Array2D_1 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
