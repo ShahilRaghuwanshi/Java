@@ -1,2 +1,2 @@
 # Java
-A collection of Java conceptssss.
+A collection of Java concepts.
