@@ -9,6 +9,8 @@ public class Jagged3D_whileTakingInput {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
+		System.out.println("Enter 1D length to create three dimension length array : ");
+		
 		//Creating 3D array by taking length as input
 		int[][][] arr = new int[sc.nextInt()][][];
 		
