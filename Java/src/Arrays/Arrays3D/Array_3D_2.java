@@ -19,7 +19,7 @@ package Arrays.Arrays3D;
 import java.util.*;
 
 public class Array_3D_2 {
-public static void main(String[] args) {
+public static void mamin(String[] args) {
 	
 	Scanner sc = new Scanner(System.in);
 	
@@ -29,7 +29,7 @@ public static void main(String[] args) {
 	arr[1] = new int[3][];
 	arr[2] = new int[4][];
 	
-	arr[0][0] = new int[2];
+	arr[0][0] = new int[2]; 
 	arr[0][1] = new int[3];
 	
 	arr[1][0] = new int[2];
