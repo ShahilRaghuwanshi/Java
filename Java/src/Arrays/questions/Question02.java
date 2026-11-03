@@ -4,12 +4,16 @@
 
 package Arrays.questions;
 
-public class Question2 {
+import java.util.*;
+
+public class Question02 {
 
 	public static void main(String[] args) {
-				
-		int a = 10;
-		int b = 20;
+			
+		Scanner sc = new Scanner(System.in);
+		
+		int a = sc.nextInt();
+		int b = sc.nextInt();
 		
 		System.out.println("Value of a and b are a = " + a + " b = " + b);
 		
