@@ -13,5 +13,11 @@ public class Question2 {
 		
 		System.out.println("Value of a and b are a = " + a + " b = " + b);
 		
+		int help = a;
+		a = b;
+		b = help;
+		
+		System.out.println("Value of a and b are a = " + a + " b = " + b);
+
 	}
 }
