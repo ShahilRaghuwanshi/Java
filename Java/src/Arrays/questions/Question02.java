@@ -15,12 +15,19 @@ public class Question02 {
 		int a = sc.nextInt();
 		int b = sc.nextInt();
 		
+		System.out.println("Before Swapping : ");
 		System.out.println("Value of a and b are a = " + a + " b = " + b);
 		
-		int help = a;
-		a = b;
-		b = help;
+//		int help;
+//		help = a;
+//		a = b;
+//		b = help;
 		
+		a = a + b;
+		b = a - b;
+		a = a - b;
+		
+		System.out.println("After Swapping : ");
 		System.out.println("Value of a and b are a = " + a + " b = " + b);
 
 	}
