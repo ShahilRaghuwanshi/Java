@@ -9,8 +9,16 @@ public class Question02 {
 		
 		int[] arr = {10, 20, 30, 40, 50};
 		
-		for(int i = 1; i < arr.length; i++) {
+		//Even index element
+		for(int i = 0; i < arr.length; i++) {
 			if(i % 2 == 0) {
+				System.out.println(arr[i]);
+			}
+		}
+		
+		//Odd index element
+		for(int i = 0; i < arr.length; i++) {
+			if(i % 2 != 0) {
 				System.out.println(arr[i]);
 			}
 		}
