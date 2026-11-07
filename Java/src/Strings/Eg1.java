@@ -1,9 +1,13 @@
+/*
+ * equals to (==) operator
+*/
 package Strings;
 
 public class Eg1 {
 
 	public static void main(String[] args) {
 		
+		//Creating immutable string without using new character 
 		String s1 = "Omkar";
 		String s2 = "Omkar";
 		
