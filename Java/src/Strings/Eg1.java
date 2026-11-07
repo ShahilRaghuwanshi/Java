@@ -1,5 +1,6 @@
 /*
- * equals to (==) operator
+ * equals to operator ( == )        
+ * Comparing references : - 
 */
 package Strings;
 
