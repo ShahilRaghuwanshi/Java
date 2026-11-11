@@ -1,3 +1,4 @@
+
 @echo off
 title GitHub Sync Tool
 color 0A
