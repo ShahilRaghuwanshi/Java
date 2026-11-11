@@ -38,11 +38,39 @@ public class InbuiltMehods {
 		
 		//substring(): - A part of a string is called substring
 		System.out.println(s1.substring(11));
+		//give string until n - 1
+		System.out.println(s1.subSequence(1, 11));
 		System.out.println("==================================");
 
+		//isEmpty(): - true / false
+		System.out.println(s1.isEmpty());
+		String s2 = new String();
+		System.out.println(s2.isEmpty());
+		System.out.println("==================================");
 		
+		//concat(): - 
+		s2 = s2.concat("  RamaSita  ");
+		System.out.println(s2);
+		System.out.println("==================================");
 
-		
+		//trim(): - to remove leading space and trailing space
+		System.out.println(s2.trim());
+		System.out.println("==================================");
+
+		//intern(): - you have string in non-constant pool and want to bring it in constant pool
+		String s3 = new String("Omkar");		//String in non-constant pool
+		String s4 = s3.intern();
+		System.out.println(s4);
+		System.out.println("==================================");
+
+		String s5 = "Omkar";
+		if(s4 == s5) {
+			System.out.println("References are equal");
+		}
+		else {
+			System.out.println("References are not equal");
+		}
+		System.out.println("==================================");
 		
 	}
 }
