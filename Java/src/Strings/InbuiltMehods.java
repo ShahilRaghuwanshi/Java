@@ -72,5 +72,58 @@ public class InbuiltMehods {
 		}
 		System.out.println("==================================");
 		
+		//compareToIgnoreCase(): - 
+		String s7 = "Mohan";
+		String s8 = "mohan";
+		
+		if(s7.compareToIgnoreCase(s8) > 0) {
+			System.out.println("Strings s7 is greeater");
+		}else if(s7.compareToIgnoreCase(s8) < 0){
+			System.out.println("Strings s8 is greater");
+		}else {
+			System.out.println("Both are equal");
+		}
+		System.out.println("==================================");
+		
+		//endsWith(): -
+		System.out.println(s7.endsWith("n"));
+		System.out.println("==================================");
+		
+		//lastIndexOf(): - 
+		System.out.println(s7.lastIndexOf('n'));
+		System.out.println("==================================");
+
+		//length(): - 
+		System.out.println(s8.length());
+		System.out.println("==================================");
+
+		//replace(): - 
+		s8 = "divya";
+		s7 = s7.replace('n', 'm');
+		System.out.println(s7);
+		System.out.println("==================================");
+
+		//replaceAll(): - 
+		s7 = s7.replaceAll(s7, s8);
+		System.out.println(s7);
+		System.out.println("==================================");
+
+		//replaceFirst(): -
+		s7 = s7.replaceFirst(s7, s8);
+		System.out.println(s7);
+		System.out.println("==================================");
+
+		//split(): - 
+		s7 = "kodnest technologies";
+		String[] s = s7.split("d");
+		for(int i =0; i < s.length; i++) {
+			System.out.println(s[i]);
+		}
+		System.out.println("==================================");
+		
+		//startsWith(): - 
+		System.out.println(s7.startsWith(s8));
+		System.out.println("==================================");
+
 	}
 }
