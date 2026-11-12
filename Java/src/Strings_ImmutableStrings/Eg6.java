@@ -1,23 +1,19 @@
 /*
- * When you will concatenate the reference of two strings to create a string 
- * String would not sit in Constant Pool
- * rather String would be created in Non-Constant Pool
- * 
- * Hence again one more string 
- * because in Non-Constant Pool duplicates are allowed 
+ * Point: When you will combine two raw strings and create a new string 
+ * the string will always be created in a constant pool
 */
 
-package Strings;
+package Strings_ImmutableStrings;
 
-public class Eg7 {
+public class Eg6 {
 
 	public static void main(String[] args) {
 		
 		String s1 = "Om";
 		String s2 = "Kar";
 		
-		String s3 = s1 + s2;
-		String s4 = s1 + s2;
+		String s3 = "Om" + "Kar";
+		String s4 = "Om" + "Kar";
 		
 		if(s3 == s4) {
 			System.out.println("References are equal");

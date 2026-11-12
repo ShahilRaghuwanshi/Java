@@ -8,7 +8,7 @@
  * if it give's 0 then both strings are equal
 */
 
-package Strings;
+package Strings_ImmutableStrings;
 
 public class Eg10 {
 

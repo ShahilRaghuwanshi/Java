@@ -2,7 +2,7 @@
  * equals() method : -   
  * Comparing Contents : - 
 */
-package Strings;
+package Strings_ImmutableStrings;
 
 public class Eg2 {
 

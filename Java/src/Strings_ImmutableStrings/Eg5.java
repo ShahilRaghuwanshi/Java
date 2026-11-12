@@ -1,4 +1,4 @@
-package Strings;
+package Strings_ImmutableStrings;
 
 public class Eg5 {
 

@@ -4,7 +4,7 @@
  * 
  * for java it's different small 'n' and capital 'N' because of ASCII value.
 */
-package Strings;
+package Strings_ImmutableStrings;
 
 public class Eg9 {
 

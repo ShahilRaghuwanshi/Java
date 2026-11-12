@@ -4,7 +4,7 @@
  * to another reference variable, reference would be copied
 */
 
-package Strings;
+package Strings_ImmutableStrings;
 
 public class Eg8 {
 

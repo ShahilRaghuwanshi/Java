@@ -2,7 +2,7 @@
  * Non-Constant Pool
 */
 
-package Strings;
+package Strings_ImmutableStrings;
 
 public class Eg3 {
 

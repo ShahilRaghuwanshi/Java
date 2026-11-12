@@ -2,7 +2,7 @@
  * Other inbuilt method's present in String class
 */
 
-package Strings;
+package Strings_ImmutableStrings;
 
 public class InbuiltMehods {
 

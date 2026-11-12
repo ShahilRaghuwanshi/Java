@@ -1,7 +1,7 @@
 /*
  * Convert a string to character array
  */
-package Strings;
+package Strings_ImmutableStrings;
 
 public class St1 {
 

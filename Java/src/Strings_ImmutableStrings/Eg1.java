@@ -2,7 +2,7 @@
  * equals to operator ( == )        
  * Comparing references : - 
 */
-package Strings;
+package Strings_ImmutableStrings;
 
 public class Eg1 {
 

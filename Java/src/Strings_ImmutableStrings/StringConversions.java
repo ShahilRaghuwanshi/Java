@@ -8,7 +8,7 @@
  * boolean to string 
 */
 
-package Strings;
+package Strings_ImmutableStrings;
 
 public class StringConversions {
 
