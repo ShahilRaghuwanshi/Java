@@ -12,8 +12,8 @@ public class Q1 {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		String str = sc.next();
-		System.out.println(str);
+		String str = sc.nextLine();
+		System.out.println("Entered String : " + str);
 		
 		char[] ch = str.toCharArray();
 		int j = ch.length - 1;
@@ -26,6 +26,6 @@ public class Q1 {
 		}
 		
 		String s1 = new String(ch1);
-		System.out.println(s1);
+		System.out.println("Reversed String: " + s1);
 	}
 }
