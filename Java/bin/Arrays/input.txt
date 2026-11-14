@@ -1,0 +1,22 @@
+5 5
+..R..
+CCCCC
+..R.C
+CCRCC
+..R..
+
+5 11
+CCC.CCC.CCC
+C.C.C.C.C.C
+CRCRCRRRCRR
+C.C.C.C.C.C
+C.CCC.CCC.C
+
+7 6
+CCCRCC
+...R.C
+CCCCCC
+C..R..
+CCCCCC
+...R.C
+CCCRCC
