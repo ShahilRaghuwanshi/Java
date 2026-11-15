@@ -12,6 +12,7 @@ public class Q4 {
 		
 		Scanner sc = new Scanner(System.in);
 		
+		System.out.println("Enter a String : ");
 		String str = sc.nextLine();
 		
 		String[] arr = str.split(" ");
