@@ -20,15 +20,19 @@ public class Q4 {
 		
 		for(int i = 0; i < arr.length; i++) {
 			
+			//accessing each word
 			String word = arr[i];
 			String revword = "";
 			
+			//reversing the word
 			for(int j = word.length() - 1; j >= 0; j--) {
 				revword = revword + word.charAt(j);
 			}
 			
+			//adding reversed word to reverse sentence
 			revsentence = revsentence + revword + " ";
 		}
+		
 		System.out.println("Original String : " + str);
 		System.out.println("Reverse String : " + revsentence);
 	}
