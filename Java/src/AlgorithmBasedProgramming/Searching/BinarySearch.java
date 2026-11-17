@@ -1,5 +1,13 @@
 /*
- * BinarySearch
+ * BinarySearch:- 
+ * 1. If your Binary Search has to work properly then the input you have to give in ascending order only
+ * 2. Why BinarySearch is called as binary search :
+ * we dividing the array exactly at the middle 
+ * Always we divide the array into exactly two halves it is by 
+ * by means binary 
+ * 3. It is your duty to order the elements in the ascending order and give it to binary search 
+ * (Sort in ascending order)
+ * 
 */
 
 package AlgorithmBasedProgramming.Searching;
