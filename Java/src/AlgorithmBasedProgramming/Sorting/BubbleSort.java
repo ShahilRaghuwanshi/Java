@@ -13,6 +13,14 @@ public class BubbleSort {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println();
+		System.out.println("Enter array length : ");
+		int n = sc.nextInt();
+		
+		int[] arr = new int[n];
+
+		for(int i = 0; i < arr.length; i++) {
+			System.out.println("Enter array element : ");
+			arr[i] = sc.nextInt();
+		}
 	}
 }
