@@ -46,10 +46,11 @@ public class SelectionSort {
 		}
 		
 		//Array elements before sorting 
-		System.out.println("array elements before sortnig : ");
+		System.out.println("array elements before sorting : ");
 		for(int i = 0; i < arr.length; i++) {
-			System.out.println(arr[i] + " ");
+			System.out.print(arr[i] + " ");
 		}
+		System.out.println();
 		
 		selectionSort(arr);
 	}
@@ -59,20 +60,20 @@ public class SelectionSort {
 			int min = arr[i];
 			int pos = i;
 			for(int j = i + 1; j < arr.length; j++) {
-				if(arr[i] < min) {
-					min = arr[i];
-					pos = i;
+				if(arr[j] < min) {
+					min = arr[j];
+					pos = j;
 				}
 			}
 			int help = arr[i];
 			arr[i] = arr[pos];
-			arr[pos] = arr[i];
+			arr[pos] = help;
 		}
 		
 		//Array elements after sorting 
-		System.out.println("array elements after sortnig : ");
+		System.out.println("array elements after sorting : ");
 		for(int i = 0; i < arr.length; i++) {
-			System.out.println(arr[i] + " ");
+			System.out.print(arr[i] + " ");
 		}
 	}
 }
