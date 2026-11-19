@@ -51,5 +51,28 @@ public class SelectionSort {
 			System.out.println(arr[i] + " ");
 		}
 		
+		selectionSort(arr);
+	}
+	
+	public static void selectionSort(int[] arr ) {
+		for(int i =0; i < arr.length - 1; i++) {
+			int min = arr[i];
+			int pos = i;
+			for(int j = i + 1; j < arr.length; j++) {
+				if(arr[i] < min) {
+					min = arr[i];
+					pos = i;
+				}
+			}
+			int help = arr[i];
+			arr[i] = arr[pos];
+			arr[pos] = arr[i];
+		}
+		
+		//Array elements after sorting 
+		System.out.println("array elements after sortnig : ");
+		for(int i = 0; i < arr.length; i++) {
+			System.out.println(arr[i] + " ");
+		}
 	}
 }
