@@ -24,10 +24,32 @@
 
 package AlgorithmBasedProgramming.Sorting;
 
+import java.util.Scanner;
+
 public class SelectionSort {
 
 	public static void main(String[] args) {
 		
+		Scanner sc = new Scanner(System.in);
+		
+		//Taking array length
+		System.out.println("Enter array length : ");
+		int n = sc.nextInt();
+		
+		//Creating array 
+		int[] arr = new int[n];
+		
+		//Taking array elements 
+		System.out.println("Enter array elements : ");
+		for(int i = 0; i < arr.length; i++) {
+			arr[i] = sc.nextInt();
+		}
+		
+		//Array elements before sorting 
+		System.out.println("array elements before sortnig : ");
+		for(int i = 0; i < arr.length; i++) {
+			System.out.println(arr[i] + " ");
+		}
 		
 	}
 }
