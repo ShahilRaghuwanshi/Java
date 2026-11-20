@@ -5,7 +5,24 @@
  * Note: - The statement to sort an algorithm should be written in a method by name
  * insertionSort() which would accept an integer array as parameter and would return void
  * 
- */
+ * Sample output 1:
+ * enter array length
+ * 5
+ * 
+ * enter array elements
+ * 86
+ * 42
+ * 23
+ * 18
+ * 25
+ * 
+ * elements before sorting
+ * 86 42 23 18 25
+ * 
+ * elements after sorting
+ * 18 23 25 42 86
+ * 
+*/
 
 package AlgorithmBasedProgramming.Sorting;
 
@@ -25,8 +42,8 @@ public class InsertionSort {
 		int[] arr = new int[n];
 		
 		//Taking array elements
+		System.out.println("Enter array element : ");
 		for(int i = 0; i < arr.length; i++) {
-			System.err.println("Enter array element : ");
 			arr[i] = sc.nextInt();
 		}
  	}
