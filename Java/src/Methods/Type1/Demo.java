@@ -1,4 +1,4 @@
-//Type - 1
+//Type - 1 (Example: 1)
 
 package Methods.Type1;
 
