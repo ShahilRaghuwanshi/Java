@@ -14,11 +14,13 @@ public class CalculatorApp {
 		
 		Calculator cal = new Calculator();
 		cal.add();
-		cal.sub(x, y);
-		int res1 = cal.mul();
-		int res2 = cal.div(x, y);
 		
+		cal.sub(x, y);
+		
+		int res1 = cal.mul();
 		System.out.println("Multiplication result is: " + res1);
+
+		int res2 = cal.div(x, y);
 		System.out.println("Division result is: " + res2);
 		
 	}
