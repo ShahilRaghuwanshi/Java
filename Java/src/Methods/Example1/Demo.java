@@ -2,7 +2,7 @@ package Methods.Example1;
 
 public class Demo {
 
-	void demo() 
+	void add() 
 	{
 	int a = 10;
 	int b = 20;
