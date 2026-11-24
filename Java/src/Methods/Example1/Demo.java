@@ -1,3 +1,5 @@
+//Type - 1
+
 package Methods.Example1;
 
 public class Demo {
