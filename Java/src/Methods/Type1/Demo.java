@@ -1,6 +1,6 @@
 //Type - 1
 
-package Methods.Example1;
+package Methods.Type1;
 
 public class Demo {
 
