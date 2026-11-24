@@ -8,7 +8,7 @@ public class CalculatorApp {
 		cal.add();
 		cal.sub(20, 10);
 		int res1 = cal.mul();
-		int res2 = cal.div(10, 20);
+		int res2 = cal.div(20, 10);
 		
 		System.out.println(res1);
 		System.out.println(res2);
