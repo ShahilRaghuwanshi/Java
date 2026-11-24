@@ -7,6 +7,8 @@ public class CalculatorApp {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
+		
+		System.err.println("Enter two numbers: ");
 		int x = sc.nextInt();
 		int y = sc.nextInt();
 		
@@ -16,8 +18,8 @@ public class CalculatorApp {
 		int res1 = cal.mul();
 		int res2 = cal.div(x, y);
 		
-		System.out.println(res1);
-		System.out.println(res2);
+		System.out.println("Multiplication result is: " + res1);
+		System.out.println("Division result is: " + res2);
 		
 	}
 }
