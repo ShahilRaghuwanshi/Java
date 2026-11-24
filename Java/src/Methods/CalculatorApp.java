@@ -12,9 +12,9 @@ public class CalculatorApp {
 		
 		Calculator cal = new Calculator();
 		cal.add();
-		cal.sub(20, 10);
+		cal.sub(x, y);
 		int res1 = cal.mul();
-		int res2 = cal.div(20, 10);
+		int res2 = cal.div(x, y);
 		
 		System.out.println(res1);
 		System.out.println(res2);
