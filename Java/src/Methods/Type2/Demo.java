@@ -1,3 +1,4 @@
+// Type -2 (Example: 2)
 package Methods.Type2;
 
 public class Demo {
