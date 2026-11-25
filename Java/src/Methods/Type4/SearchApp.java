@@ -24,6 +24,10 @@ public class SearchApp {
 		
 		//calling method
 		LinearSearch4 ls = new LinearSearch4();
-		ls.linearSearch(arr, key);
+		int i = ls.linearSearch(arr, key);
+		
+		if(i >= 0) System.out.println("Key Found at Index: " + i);
+		else System.out.println("Key Not Found");
+		
 	}
 }
