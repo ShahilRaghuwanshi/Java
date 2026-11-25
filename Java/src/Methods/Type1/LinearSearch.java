@@ -1,3 +1,5 @@
+//LinearSearch (Type - 1)
+
 package Methods.Type1;
 
 import java.util.Scanner;
