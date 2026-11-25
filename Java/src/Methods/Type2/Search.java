@@ -2,9 +2,7 @@
 
 package Methods.Type2;
 
-import java.util.Scanner;
-
-public class LinearSearch {
+public class Search {
 
 	void linearSearch(int[] arr, int key) {
 		
