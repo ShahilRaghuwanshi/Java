@@ -4,7 +4,7 @@ public class SearchApp {
 
 	public static void main(String[] args) {
 		
-		LinearSearch ls = new LinearSearch();
+		LinearSearch1 ls = new LinearSearch1();
 		
 		ls.linearSearch();
 		

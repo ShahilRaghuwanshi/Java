@@ -2,8 +2,6 @@ package Methods.Type2;
 
 import java.util.Scanner;
 
-import Methods.Type1.LinearSearch;
-
 public class SearchApp {
 
 	public static void main(String[] args) {
@@ -25,7 +23,7 @@ public class SearchApp {
 		System.out.println("Enter a key: ");
 		int key = sc.nextInt();
 		
-		Search ls = new Search();
+		LinearSearch2 ls = new LinearSearch2();
 
 		ls.linearSearch(arr, key);
 		

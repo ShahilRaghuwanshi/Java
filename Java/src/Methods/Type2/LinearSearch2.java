@@ -2,7 +2,7 @@
 
 package Methods.Type2;
 
-public class Search {
+public class LinearSearch2 {
 
 	void linearSearch(int[] arr, int key) {
 		

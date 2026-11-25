@@ -4,9 +4,9 @@ package Methods.Type1;
 
 import java.util.Scanner;
 
-public class LinearSearch {
+public class LinearSearch1 {
 
-	void linearSearch() {
+	 void linearSearch() {
 		
 		Scanner sc = new Scanner(System.in);
 		
