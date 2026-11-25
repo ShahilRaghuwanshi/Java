@@ -11,10 +11,9 @@ public class LinearSearch {
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("Enter array length: ");
-		int n = sc.nextInt();
 		
 		//creating an array 
-		int[] arr = new int[n];
+		int[] arr = new int[sc.nextInt()];
 		
 		//Taking array elements 
 		for(int i = 0; i < arr.length; i++) {
@@ -30,7 +29,7 @@ public class LinearSearch {
 		for(int i = 0; i < arr.length; i++) {
 			if(key == arr[i]) {
 				System.out.println("Key found at index: " + i);
-				System.exit(0);
+				return;
 			}
 		}
 		System.out.println("Key not found");
