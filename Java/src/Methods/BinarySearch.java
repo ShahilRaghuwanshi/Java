@@ -28,7 +28,7 @@ public class BinarySearch {
 		int low = 0;
 		int high = arr.length - 1;
 		
-		while(low < high) {
+		while(low <= high) {
 			
 			int mid = (low + high) / 2;
 			
@@ -56,7 +56,7 @@ public class BinarySearch {
 		int low = 0;
 		int high = arr.length - 1;
 				
-		while(low < high) {
+		while(low <= high) {
 					
 			int mid = (low + high) / 2;
 					
@@ -99,7 +99,7 @@ public class BinarySearch {
 		int low = 0;
 		int high = arr.length - 1;
 		
-		while(low < high) {
+		while(low <= high) {
 			
 			int mid = (low + high) / 2;
 			
@@ -126,7 +126,7 @@ public class BinarySearch {
 		int low = 0;
 		int high = arr.length - 1;
 				
-		while(low < high) {
+		while(low <= high) {
 					
 			int mid = (low + high) / 2;
 					
