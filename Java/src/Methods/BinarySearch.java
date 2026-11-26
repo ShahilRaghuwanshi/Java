@@ -7,8 +7,8 @@ public class BinarySearch {
 	Scanner sc = new Scanner(System.in);
 	
 	//Type - 1 Method
-	void binarySearch1() {
-		
+	void binarySearch1() 
+	{
 		System.out.println("Enter array length: ");
 		
 		//Creating array by given length 
@@ -51,7 +51,8 @@ public class BinarySearch {
  	}
 	
 	//Type - 2 Method
-	void binarySearch2(int[] arr, int key) {
+	void binarySearch2(int[] arr, int key) 
+	{
 		//Logic of Binary Search
 		int low = 0;
 		int high = arr.length - 1;
@@ -79,7 +80,8 @@ public class BinarySearch {
 	}
 	
 	//Type - 3 Method
-	int binarySearch3() {
+	int binarySearch3() 
+	{
 		System.out.println("Enter array length: ");
 		
 		//Creating array by given length 
@@ -121,8 +123,9 @@ public class BinarySearch {
 	}
 	
 	//Type - 4 Method
-	int binarySearch4(int[] arr, int key) {
-	//Logic of Binary Search
+	int binarySearch4(int[] arr, int key) 
+	{
+		//Logic of Binary Search
 		int low = 0;
 		int high = arr.length - 1;
 				

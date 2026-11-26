@@ -46,9 +46,7 @@ public class SearchApp {
 		}
 		System.out.println("========================================");
 
-		//Taking inputs from user
-		Scanner scan = new Scanner(System.in);
-				
+		//Taking inputs from user				
 		System.out.println("Enter array length: ");
 				
 		//Creating array by given length 
@@ -56,18 +54,18 @@ public class SearchApp {
 				
 		//Taking array elements
 		System.out.println("Enter array elements: ");
-		for(int i = 0; i < arr.length; i++) {
-			arr[i] = sc.nextInt();
+		for(int i = 0; i < arr1.length; i++) {
+			arr1[i] = sc.nextInt();
 		}
 				
 		//Taking Key
 		System.out.println("Enter key: ");
-		int key1 = scan.nextInt();
+		int key1 = sc.nextInt();
 		
 		//Type - 4
 		int res2 = bs.binarySearch4(arr1, key1);
 		if(res2 >= 0) {
-			System.out.println("Key Found at idex: " + res1);
+			System.out.println("Key Found at idex: " + res2);
 		}
 		else {
 			System.out.println("Key Not Found");
