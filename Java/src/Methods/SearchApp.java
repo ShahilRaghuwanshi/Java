@@ -27,6 +27,21 @@ public class SearchApp {
 		BinarySearch bs = new BinarySearch();
 		
 		//Calling methods
+		//Type - 1
 		bs.binarySearch1();
+		
+		//Type - 2
+		bs.binarySearch2(arr, key);
+		
+		//Type - 3
+		int res1 = bs.binarySearch3();
+		if(res1 >= 0) System.out.println("Key Found at idex: " + res1);
+		else System.out.println("Key Not Found");
+		
+		//Type - 4
+		int res2 = bs.binarySearch4(arr, key);
+		if(res2 >= 0) System.out.println("Key Found at idex: " + res1);
+		else System.out.println("Key Not Found");
+		
 	}
 }
