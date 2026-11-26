@@ -7,7 +7,7 @@ public class BinarySearch {
 	Scanner sc = new Scanner(System.in);
 	
 	//Type - 1
-	void binarySearch() {
+	void binarySearch1() {
 		
 		System.out.println("Enter array length: ");
 		
@@ -32,11 +32,11 @@ public class BinarySearch {
 			
 			int mid = (low + high) / 2;
 			
-			if(arr[mid] == key) {
+			if(key == arr[mid]) {
 				System.out.println("Key found at index : " + mid);
 				return;
 			}
-			else if(arr[mid] > key) {
+			else if(key > arr[mid]) {
 				low = mid + 1;
 				high = high;
 			}
@@ -46,6 +46,7 @@ public class BinarySearch {
 			}
 			
 		}
+		
 		System.out.println("Key Not Found");
 		
  	}
