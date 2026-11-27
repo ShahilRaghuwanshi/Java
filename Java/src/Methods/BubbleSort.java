@@ -37,5 +37,29 @@ public class BubbleSort {
 		for(int i = 0; i < arr.length; i++) {
 			System.out.println(arr[i] + " ");
 		}
+		
+	}
+	
+	//Type - 2 Method
+	void bubbleSort2(int[] arr)
+	{
+
+		//logic of binary search
+		for(int i = 0; i <= arr.length - 2; i++) {
+			for(int j = 0; j <= arr.length - 2 - i; j++) {
+				if(arr[j] > arr[j+1]) {
+					int help = arr[j];
+					arr[j] = arr[j+1];
+					arr[j+1] = help;
+				}
+			}
+		}
+				
+		//Printing array contents
+		System.out.println("Array contents are: ");
+		for(int i = 0; i < arr.length; i++) {
+			System.out.println(arr[i] + " ");
+		}
+		
 	}
 }
