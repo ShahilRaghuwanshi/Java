@@ -93,7 +93,8 @@ public class BubbleSort {
 	}
 	
 	//Type - 4 Method
-	int[] bubbleSort4(int[] arr) {
+	int[] bubbleSort4(int[] arr) 
+	{
 		//logic of BubbleSort 
 		for(int i = 0; i <= arr.length - 2; i++) {
 			for(int j = 0; j <= arr.length - 2 - i; j++) {
@@ -107,4 +108,22 @@ public class BubbleSort {
 		return arr;
 		
 	}
+	
+	//String Array
+	String[] bubbleSort5(String[] s) 
+	{
+		//logic of BubbleSort 
+		for(int i = 0; i <= s.length - 2; i++) {
+			for(int j = 0; j <= s.length - 2 - i; j++) {
+				if(s[j].compareTo(s[j+1]) > 0) {
+					String help = s[j];
+					s[j] = s[j+1];
+					s[j+1] = help;
+				}
+			}
+		}
+		return null;
+		
+	}
+	
 }

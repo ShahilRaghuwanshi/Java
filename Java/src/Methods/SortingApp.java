@@ -60,7 +60,23 @@ public class SortingApp {
 		}
 		System.out.println("=================================");
 
+		//String Array
+		System.out.println("Enter the length of Steing array: ");
+		//Creating String array 
+		String[] s = new String[sc.nextInt()];
 		
+		//Taking elements 
+		System.out.println("Enter String Array Elements: ");
+		for(int i = 0; i < s.length; i++) {
+			s[i] = sc.next();
+		}
+		
+		//Printing string array
+		String[] s1 = bs.bubbleSort5(s);
+		System.out.println("String array contents are: ");
+		for(int i = 0; i < s.length; i++) {
+			System.out.println(s[i] + " ");
+		}
 	}
 	
 }
